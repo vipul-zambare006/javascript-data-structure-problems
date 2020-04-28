@@ -105,32 +105,3 @@ myTree.postorderTraverse(myTree.root);
 console.log("====== IS VALID BST ======");
 console.log("");
 console.log("Is valid BST:", myTree.isBST(myTree.root));
-
-// var intToRoman = function(num) {
-//   const intToRomanMap = {
-//     1000: "M",
-//     900: "CM",
-//     500: "D",
-//     400: "CD",
-//     100: "C",
-//     90: "XC",
-//     50: "L",
-//     40: "XL",
-//     10: "X",
-//     9: "IX",
-//     5: "V",
-//     4: "IV",
-//     1: "I"
-//   };
-//   roman = "";
-
-//   intToRoman = Object.keys();
-
-//   for (let key in intToRomanMap) {
-//     while (num >= key) {
-//       num -= key;
-//       roman += intToRomanMap[key];
-//     }
-//   }
-//   return roman;
-// };
